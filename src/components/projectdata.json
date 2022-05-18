@@ -22,5 +22,11 @@
         "name": "Recipe app",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZETIF2eAytl8Niwfa-cYtuplybnXFQft8A&usqp=CAU",
         "url": "https://deliciousss-recipe.netlify.app/"
+    },
+    {
+        "id": "5",
+        "name": "Book List",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-bA0Pc9kA-pi9CBOMAYpcCIkCKWK79qdiQg&usqp=CAU",
+        "url": "https://book-list-jurabek.netlify.app/"
     }
 ]
