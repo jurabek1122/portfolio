@@ -34,9 +34,6 @@ const Home = () => {
                         <button className='home-button'>MY WORKS</button>
                     </a>
                 </Col>
-                <Col md='6'>
-
-                </Col>
             </Row>
         </div>
     );

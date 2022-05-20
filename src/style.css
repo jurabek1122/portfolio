@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     background-color: white;
-    width: 100%;
+    width: 100% !important;
     padding: 0;
 }
 .navbar {
@@ -43,9 +43,6 @@
 }
 .icon:hover {
     color: rgb(186, 18, 228);
-}
-.home-img {
-    background: linear-gradient(to top right, #d44b4b 0%, #2424b6 100%);
 }
 #projects {
     padding-top: 75px !important;
@@ -98,4 +95,76 @@
 }
 .contactInfo {
     margin: 100px 0 0 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+    #contacts {
+        margin: 20px 0 !important;
+        width: 100% !important;
+    }
+    .contactInfo {
+        margin: 100px 0 0 0;
+    }
+    .contact {
+        display: flex;
+        padding-left: 0 !important;
+    }
+    .contactInput {
+        display: block;
+        width: 300px;
+        padding: 5px;
+        margin:20px 0;
+    }
+    .contactmessage {
+        width: 300px;
+        min-height: 200px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .contact {
+        display: flex;
+        padding: 0 !important;
+        margin-left: 10px;
+    }
+    .contactInput {
+        width: 400px;
+        border: 1px solid rgb(118, 118, 118);
+    }
+    .contactmessage {
+        width: 400px;
+        border: 1px solid rgb(118, 118, 118);
+    }
+    #contacts {
+        margin: 20px 0 !important;
+        width: 100% !important;
+    }
+    .contactInfo {
+        margin: 100px 0 0 0;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    #contacts {
+        margin: 20px 0 !important;
+        width: 100% !important;
+    }
+    .contactInput {
+        width: 360px;
+        border: 1px solid rgb(118, 118, 118);
+    }
+    .contactmessage {
+        width: 360px;
+        border: 1px solid rgb(118, 118, 118);
+    }
+    .contactInfo {
+        margin: 100px 0 0 0;
+    }
+    .contact {
+        display: flex;
+        padding: 0 !important;
+    }
 }
