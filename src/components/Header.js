@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import {Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink} from 'reactstrap';
+import {Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem} from 'reactstrap';
+import { NavLink, Link } from 'react-router-dom';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,18 +11,18 @@ const Header = () => {
                     display: 'block'
                 }}>
                     <Navbar  light expand="md">
-                        <NavbarBrand className='logo' href="/">JURABEK</NavbarBrand>
+                        <Link className='logo' to="/">JURABEK</Link>
                         <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="links" navbar>
                                 <NavItem>
-                                    <NavLink className="link" href="#home">HOME</NavLink>
+                                    <NavLink className="link" to="/" onClick={() => { setIsOpen(!isOpen) }}>HOME</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="link" href="#projects">PORTFOLIO</NavLink>
+                                    <NavLink className="link" to="portfolio" onClick={() => { setIsOpen(!isOpen) }}>PORTFOLIO</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="link" href="#contacts">CONTACT</NavLink>
+                                    <NavLink className="link" to="contact" onClick={() => { setIsOpen(!isOpen) }}>CONTACT</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>

@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { Row, Col, Button } from 'reactstrap';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -5,17 +6,42 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
+    const form = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_ty19aqo', 'template_3thnz4g', form.current, 'SSLusv81aIPaGwmuF')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    };
     return (
         <Row id='contacts'>
             <h1>Contact</h1>
             <Col md='6'>
-                <input placeholder='name' type='text' className='contactInput' />
-                <input placeholder='email' type='email' className='contactInput' />
-                <textarea placeholder='your message...' className='contactmessage' />
-                <Button color="dark" outline className='sendBtn'>Send</Button>
+                <form ref={form} onSubmit={sendEmail}>
+                <input placeholder='name' type='text' className='contactInput' name='user_name' required />
+                <input placeholder='email' type='email' className='contactInput' name='user_email' required />
+                <textarea placeholder='your message...' className='contactmessage' name='message' />
+                <Button color="dark" outline className='sendBtn' type='submit'>Send</Button>
+                </form>
+                 {/* <form ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input type="text" name="user_name" />
+                <label>Email</label>
+                <input type="email" name="user_email" />
+                <label>Message</label>
+                <textarea name="message" />
+                <input type="submit" value="Send" />
+                </form> */}
             </Col>
             <Col md='6' className="contact">
                 <div className='social'>
