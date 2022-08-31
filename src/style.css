@@ -142,7 +142,11 @@
         margin-top: 40px;
     }
     #contacts {
-        margin: 20px 0 !important;
+        margin: 50px 0 0 0 !important;
+        width: 100% !important;
+    }
+    #contacts h1 {
+        margin: 50px 0 0 0 !important;
         width: 100% !important;
     }
     .contactInfo {
@@ -161,6 +165,9 @@
     .contactmessage {
         width: 300px;
         min-height: 200px;
+    }
+    .social {
+        margin-top: 15px;
     }
 }
 
