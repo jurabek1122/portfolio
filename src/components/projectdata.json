@@ -1,48 +1,60 @@
 [
     {
         "id": "1",
+        "name": "Makler Uz",
+        "img": "https://makler-uz.netlify.app/static/media/logo.3f0eccd4cbfad24568d7.png",
+        "url": "https://makler-uz.netlify.app/"
+    },
+    {
+        "id": "2",
+        "name": "Lyriks",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYZeHVzxDiBgDTAiBj23i_yCj6fuA0WENcBA&usqp=CAU",
+        "url": "https://lyriks123.netlify.app/"
+    },
+    {
+        "id": "3",
         "name": "Realtor app",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZNt7yqj7upnIW19PcE38R2xBYDfHXI7miQ&usqp=CAU",
         "url": "https://realtor123.netlify.app/"
     },
     {
-        "id": "2",
+        "id": "4",
         "name": "YouTube clone",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyNh6eoGkFF_v_3bWG0ItgveCttqsVZvlUjg&usqp=CAU",
         "url": "https://youtube-clone12.netlify.app/"
     },
     {
-        "id": "3",
+        "id": "5",
         "name": "MacroSoft",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVoPtx7AlK3nOEfMYMerCZE3ZWiMTtZWNLiw&usqp=CAU",
         "url": "https://macrosoft123.netlify.app/"
     },
     {
-        "id": "4",
+        "id": "6",
         "name": "Bellissimo clone",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU9ygE8LJTMH2_ZkwGppzv6MbDh4rGuhXHkw&usqp=CAU",
         "url": "https://bellissimo-clone.netlify.app/"
     },
     {
-        "id": "5",
+        "id": "7",
         "name": "Memory Game",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8M9TO1iJFqfwe9sgKmP6sUr9q8rG74NOB8A&usqp=CAU",
         "url": "https://magic-memory-match.netlify.app/"
     },
     {
-        "id": "6",
+        "id": "8",
         "name": "Recipe app",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZETIF2eAytl8Niwfa-cYtuplybnXFQft8A&usqp=CAU",
         "url": "https://deliciousss-recipe.netlify.app/"
     },
     {
-        "id": "7",
+        "id": "9",
         "name": "Movie app",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdC7q1wkIq2yHIrj22pI9ne_YxPnSxjcLlKg&usqp=CAU",
         "url": "https://movieland-trailers.netlify.app/"
     },
     {
-        "id": "8",
+        "id": "10",
         "name": "Book List",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-bA0Pc9kA-pi9CBOMAYpcCIkCKWK79qdiQg&usqp=CAU",
         "url": "https://book-list-jurabek.netlify.app/"
